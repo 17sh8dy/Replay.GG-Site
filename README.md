@@ -15,7 +15,7 @@ Deploy this folder directly to Cloudflare Pages as a static site. No install, bu
 - All download calls to action lead to `https://github.com/17sh8dy/Replay.GG/releases`, not to an assumed installer. The uploaded ZIP has a `package.json` version **0.5.0**, but its bundled installer is named **0.1.0**. Confirm and publish the intended current release before presenting a direct download.
 - The website deliberately does **not** advertise streaming, AI highlights, automatic clipping, or paid plans as active features. They are described as planned or placeholders in the app source.
 - Actual recording requires FFmpeg; in the app's README, it must be available at the packaged resources directory, via environment variable, or on PATH. Windows system audio may need a loopback device.
-- All app images in `assets/*.webp` are real screenshots of Replay.gg 0.5.0 (captured 2026-10-18 from the built app). The Library shot shows the empty state; swap in a populated one when available.
+- All app images in `assets/*.webp` are real screenshots of Replay.gg 0.5.0 (captured 2026-10-18 from the built app). The Library shot is the populated library from the same build.
 - Official brand assets are reused from `ReplayGG/assets/logo` in the supplied archive.
 
 Nothing here modifies the supplied desktop app. Nothing has been published.
